@@ -1,19 +1,45 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a classic Hangman game in Python while practicing string manipulation, loops, conditionals, and user input handling. By the end of this assignment, you will create a playable command-line game with clear win and lose outcomes.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Set Up the Game State
 
-## ✅ Must Have's
+#### Description
+Create the core game setup, including a word list, random word selection, and variables needed to track guesses and remaining attempts.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Store at least 5 possible words in a predefined list.
+- Randomly choose one word for the current game.
+- Initialize a collection for guessed letters.
+- Initialize a counter for incorrect guesses remaining (for example, 6).
+
+### 🛠️ Implement the Guessing Loop
+
+#### Description
+Write the main game loop that asks the player for one letter at a time, updates progress, and checks for game completion.
+
+#### Requirements
+Completed program should:
+
+- Prompt the player to enter a single letter each turn.
+- Show the current word progress using underscores for unknown letters (example: `_ a _ _ m a _`).
+- Decrease remaining attempts only when the guessed letter is not in the word.
+- End the game with a win message when all letters are guessed.
+- End the game with a lose message when no attempts remain.
+
+Example interaction:
+
+```text
+Word: _ _ _ _
+Guess a letter: a
+Good guess!
+Word: _ a _ _
+Attempts left: 6
+```
