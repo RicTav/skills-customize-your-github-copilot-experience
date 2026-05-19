@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "python-decorators",
+      "title": "Python Decorator Patterns",
+      "description": "Master the decorator pattern in Python. Learn to create and use decorators for timing, logging, caching, and authentication. Understand how to apply design patterns in real-world scenarios.",
+      "path": "assignments/python-decorators",
+      "dueDate": "2026-06-15",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
